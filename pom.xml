@@ -8,7 +8,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>17</maven.compiler.release>
-        <exec.mainClass>com.mycompany.nhom01.lop02.Student</exec.mainClass>
+        <exec.mainClass>com.mycompany.nhom01.lop02.Book</exec.mainClass>
     </properties>
     <name>Nhom01-Lop02</name>
     <dependencies>

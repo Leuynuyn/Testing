@@ -13,9 +13,9 @@ import static org.junit.Assert.*;
  *
  * @author ADMIN
  */
-public class StudentTest {
+public class BookTest {
     
-    public StudentTest() {
+    public BookTest() {
     }
 
     @Before
