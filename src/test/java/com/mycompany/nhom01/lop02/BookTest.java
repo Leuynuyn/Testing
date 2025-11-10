@@ -12,11 +12,13 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.BeforeClass;
+import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 /**
  * JUnit test Book.java
  */
+@RunWith(Parameterized.class)
 public class BookTest {
     
     private double inputPrice;
