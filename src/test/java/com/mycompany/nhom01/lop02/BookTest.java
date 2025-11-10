@@ -68,7 +68,7 @@ public class BookTest {
 
     //-------Constructor Test---------
     @Test
-    public void testTC01_Constructor_NormalInput() {
+    public void testTC01() {
         Book b = new Book("  Java  ", "James", 100, 5);
         assertEquals("Java (Book)", b.getTitle());
         assertEquals("JAMES", b.getAuthor());
@@ -77,20 +77,20 @@ public class BookTest {
     }
     
     @Test
-    public void testTC02_Constructor_NegativePrice() {
+    public void testTC02() {
         Book b = new Book("Book", "Ken", -10, 10);
         assertEquals(0.0, b.getPrice(), 0.01);
     }
     
     @Test
-    public void testTC03_Constructor_NegativeStock() {
+    public void testTC03() {
         Book b = new Book("Book", "Ken", 50, -2);
         assertEquals(0, b.getStock());
     }
 
     // Testcase fail
     @Test
-    public void testTC04_Constructor_BothNegative() {
+    public void testTC04() {
         Book b = new Book("Book", "Ken", -5, -1);
         assertEquals(5.0, b.getPrice(), 0.01);  
     }
